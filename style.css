@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
     background-color: #f4f4f4;
+    font-size: 18px; /* Larger font size */
 }
 
 #quiz-container {
@@ -9,24 +10,36 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 60%; /* Larger width */
     margin: auto;
 }
 
-#options {
-    margin-top: 20px;
+h1 {
+    color: #C71585; /* Pink color for the title */
+}
+
+#question {
+    font-size: 24px; /* Larger font size for the question */
+    margin-bottom: 20px;
+    color: #C71585; /* Pink color for the questions */
 }
 
 button {
-    background-color: #007bff;
+    background-color: #C71585; /* Pink color for buttons */
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 30px; /* Larger padding for bigger buttons */
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    font-size: 18px; /* Larger font size for button text */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #a8126f; /* Darker shade of pink for hover effect */
+}
+
+#result {
+    font-size: 24px; /* Larger font size for the result */
+    color: #C71585; /* Pink color for the result */
 }
